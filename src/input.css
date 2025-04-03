@@ -5,12 +5,15 @@
 *::before,
 *::after {
   box-sizing: border-box;
-
 }
 html {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
+}
+li {
+  list-style: none;
+  font-weight: 600;
 }
 .shadow_class_one {
   box-shadow: none;
@@ -29,4 +32,14 @@ html {
 }
 .shadow_class_three:hover {
   box-shadow: 0px 4px 40px 0px #0e4b9280;
+}
+button:not(.play_btn) {
+  transition: all 0.3s ease-in-out;
+  border-width: 2px;
+  border-color: transparent;
+}
+button:hover {
+  border-color: rgb(81, 53, 255);
+  background-color: white;
+  color: rgb(81, 53, 255);
 }

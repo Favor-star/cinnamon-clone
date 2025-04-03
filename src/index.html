@@ -31,7 +31,7 @@
           <div class="flex flex-row justify-center gap-4 items-center ms-4">
             <div class="play-button-overwrapp">
               <button
-                class="p-3 rounded-full flex items-center justify-center hover:bg-[rgb(81,53,255)] transition-colors border-2 border-[rgb(81,53,255)] hover:border-transparent"
+                class="p-3 rounded-full flex items-center justify-center hover:bg-[rgb(81,53,255)] transition-colors border-2 border-[rgb(81,53,255)] hover:border-transparent play_btn"
               >
                 <svg
                   class="w-6 h-6 text-white"
@@ -418,6 +418,18 @@
           </span>
         </div>
       </section>
+      <div class="w-full flex flex-row justify-start items-start gap-5 mt-10 max-w-screen-lg">
+        <img
+          src="../public/arrow-left.webp"
+          alt="arrow-left"
+          class="max-w-12"
+        />
+        <img
+          src="../public/arrow-right.webp"
+          alt="arrow-left"
+          class="max-w-12"
+        />
+      </div>
     </section>
 
     <section
@@ -467,9 +479,9 @@
     <section
       class="w-full flex flex-col items-center justify-center px-4 md:px-0"
     >
-      <section class="max-w-screen-lg w-full">
+      <section class="max-w-screen-lg w-full flex flex-col gap-10">
         <div
-          class="flex flex-col gap-10 max-w-[75%] w-full justify-start items-start"
+          class="flex flex-col gap-10 max-w-[55%] w-full justify-start items-start"
         >
           <p class="font-bold text-5xl">Agile team on demand</p>
           <p class="">
@@ -485,16 +497,64 @@
         </div>
 
         <div
-          class="flex flex-col flex-wrap max-h-[1000px] w-full gap-5 max-w-screen-lg"
+          class="grid grid-cols-4 justify-start items-end gap-2 gap-x-8 max-h-[900px] flex-wrap mt-[-150px]"
         >
-          <img src="../public/agileTeam1.webp" alt="agileTeam1" class="" />
-          <img src="../public/agileTeam2.webp" alt="agileTeam2" class=" " />
-          <img src="../public/agileTeam3.webp" alt="agileTeam3" class="" />
-          <img src="../public/agileTeam4.webp" alt="agileTeam4" class="" />
-          <img src="../public/agileTeam5.webp" alt="agileTeam5" class="" />
-          <img src="../public/agileTeam6.webp" alt="agileTeam6" class="" />
-          <img src="../public/agileTeam8.webp" alt="agileTeam8" class="" />
-          <img src="../public/agileTeam9.webp" alt="agileTeam9" class="" />
+          <div class="w-full h-full flex flex-col items-end justify-end">
+            <!-- <div class="max-w-[200px] h-[600px] w-full bg-red-500 block"></div> -->
+            <img
+              src="../public/agileTeam1.webp"
+              alt="agileTeam1"
+              class="max-w-[200px] w-full block"
+            />
+          </div>
+          <!-- <div class="max-w-[200px] h-[200px] w-full block bg-red-400"></div> -->
+          <div class="flex flex-col justify-end items-end gap-5">
+            <img
+              src="../public/agileTeam2.webp"
+              alt="agileTeam2"
+              class="max-w-[200px] w-full block"
+            />
+            <img
+              src="../public/agileTeam3.webp"
+              alt="agileTeam3"
+              class="max-w-[200px] w-full block"
+            />
+          </div>
+          <div class="flex flex-col justify-end items-end gap-5">
+            <img
+              src="../public/agileTeam4.webp"
+              alt="agileTeam4"
+              class="max-w-[200px] w-full block"
+            />
+            <!-- <div class="max-w-[200px] h-[100px] w-full block bg-red-400"></div> -->
+            <img
+              src="../public/agileTeam5.webp"
+              alt="agileTeam5"
+              class="max-w-[200px] w-full block"
+            />
+            <img
+              src="../public/agileTeam6.webp"
+              alt="agileTeam6"
+              class="max-w-[200px] w-full block"
+            />
+          </div>
+          <div class="flex flex-col justify-end items-end gap-5">
+            <img
+              src="../public/agileTeam7.webp"
+              alt="agileTeam7"
+              class="max-w-[200px] w-full block"
+            />
+            <img
+              src="../public/agileTeam8.webp"
+              alt="agileTeam8"
+              class="max-w-[200px] w-full block"
+            />
+            <img
+              src="../public/agileTeam9.webp"
+              alt="agileTeam9"
+              class="max-w-[200px] w-full block"
+            />
+          </div>
         </div>
       </section>
     </section>
@@ -532,43 +592,45 @@
           Stay in the loop <br />
           on the tech topics
         </h2>
-        <section
-          class="grid grid-cols-3 justify-start gap-2 flex-nowrap min-w-[700px] w-full overflow-x-auto"
-        >
-          <div class="flex flex-col gap-3">
-            <img
-              src="../public/Patience_blog_cover.webp"
-              alt="patience blog cover"
-            />
-            <p class="uppercase font-medium">pm</p>
-            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
-            <p class="font-semibold">
-              The Importance of Patience in Producing High-Quality Work
-            </p>
-          </div>
-          <div class="flex flex-col gap-3">
-            <img
-              src="../public/Patience_blog_cover.webp"
-              alt="patience blog cover"
-            />
-            <p class="uppercase font-medium">pm</p>
-            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
-            <p class="font-semibold">
-              The Importance of Patience in Producing High-Quality Work
-            </p>
-          </div>
-          <div class="flex flex-col gap-3">
-            <img
-              src="../public/Patience_blog_cover.webp"
-              alt="patience blog cover"
-            />
-            <p class="uppercase">pm</p>
-            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
-            <p class="font-semibold">
-              The Importance of Patience in Producing High-Quality Work
-            </p>
-          </div>
-        </section>
+        <div class="overflow-x-scroll w-full">
+          <section
+            class="grid grid-cols-3 justify-start gap-2 flex-nowrap min-w-[700px] w max-w-full"
+          >
+            <div class="flex flex-col gap-3">
+              <img
+                src="../public/Patience_blog_cover.webp"
+                alt="patience blog cover"
+              />
+              <p class="uppercase font-medium">pm</p>
+              <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+              <p class="font-semibold">
+                The Importance of Patience in Producing High-Quality Work
+              </p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <img
+                src="../public/Patience_blog_cover.webp"
+                alt="patience blog cover"
+              />
+              <p class="uppercase font-medium">pm</p>
+              <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+              <p class="font-semibold">
+                The Importance of Patience in Producing High-Quality Work
+              </p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <img
+                src="../public/Patience_blog_cover.webp"
+                alt="patience blog cover"
+              />
+              <p class="uppercase">pm</p>
+              <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+              <p class="font-semibold">
+                The Importance of Patience in Producing High-Quality Work
+              </p>
+            </div>
+          </section>
+        </div>
       </section>
     </section>
     <section class="w-full flex flex-row items-center justify-center">
