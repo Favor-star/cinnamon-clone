@@ -12,12 +12,12 @@
       rel="stylesheet"
     />
   </head>
-  <body class="w-full flex flex-col justify-center items-center">
-    <main
-      class="w-full max-w-screen-lg flex flex-col items-start justify-center p-4 md:p-0 relative"
+  <body class="w-full flex flex-col justify-center items-center relative">
+    <div
+      class="w-full bg-white mt-2 fixed top-5 left-1/2 -translate-1/2 flex items-center justify-center"
     >
       <header
-        class="flex-row justify-between w-full mt-5 hidden md:flex sticky top-0 bg-white p-2 z-10"
+        class="flex-row justify-between w-full mt-5 hidden md:flex max-w-screen-lg bg-white p-4 z-10"
       >
         <img src="/public/logo.svg" alt="" class="max-w-36" />
         <nav class="flex flex-row justify-between items-center w-8/12">
@@ -60,7 +60,7 @@
         </nav>
       </header>
       <header
-        class="flex md:hidden w-full flex-row justify-between sticky top-0 bg-white p-4 z-10"
+        class="flex md:hidden w-full flex-row justify-between bg-white p-4 z-10"
       >
         <img src="/public/logo.svg" alt="" class="max-w-36 block md:hidden" />
         <img
@@ -68,9 +68,12 @@
           alt="Mobile menu mobile-menu-icon"
         />
       </header>
-
+    </div>
+    <main
+      class="w-full max-w-screen-lg flex flex-col items-start justify-center p-4 md:p-0"
+    >
       <h4
-        class="pt-36 text-6xl font-black justify-start align-start text-start w-full"
+        class="pt-20 md:pt-56 text-5xl md:text-7xl font-black justify-start align-start text-start w-full"
       >
         Human & The Machine
       </h4>
@@ -102,7 +105,7 @@
         </div>
       </div>
       <section
-        class="bg-white md:bg-[#4E2680] flex flex-col md:flex-row-reverse justify-between gap-5 items-center w-full p-0 md:p-10 mt-10 md:mt-36 mb-10 text-black md:text-white"
+        class="bg-white md:bg-[#4E2680] shadow_class_one transition-all flex flex-col md:flex-row-reverse justify-between gap-5 items-center w-full p-0 md:p-10 mt-10 md:mt-36 mb-10 text-black md:text-white"
       >
         <img
           src="/public/image.png"
@@ -111,8 +114,8 @@
         />
         <div class="flex flex-col gap-3 flex-1">
           <span class="flex flex-row gap-2 text-base justify-start">
-            <p class="uppercase font-medium">Product Design</p>
-            <p class="uppercase font-medium">Web Development</p>
+            <p class="uppercase font-medium text-sm">Product Design</p>
+            <p class="uppercase font-medium text-sm">Web Development</p>
           </span>
           <p class="font-bold text-4xl">Engage & Decide</p>
           <p class="text-xl">
@@ -135,10 +138,82 @@
           </div>
         </div>
       </section>
+      <section
+        class="bg-white md:bg-[#17464F] shadow_class_two transition-all flex flex-col md:flex-row-reverse justify-between gap-5 items-center w-full p-0 md:p-10 mt-10 md:mt-20 mb-5 text-black md:text-white"
+      >
+        <img
+          src="/public/image-2.png"
+          alt="Laptop image"
+          class="w-full md:w-1/2 p-5 md:p-0 bg-[#17464F] md:bg-inherit"
+        />
+        <div class="flex flex-col gap-3 flex-1">
+          <span class="flex flex-row gap-2 text-base justify-start">
+            <p class="uppercase font-medium text-sm">Product Design</p>
+            <p class="uppercase font-medium text-sm">Quality Assurance</p>
+          </span>
+          <p class="font-bold text-4xl">Optimize prices to maximize revenue</p>
+          <p class="text-xl">
+            Corrily tailors your prices and discounts to the needs of different
+            user segments in order to increase your revenue.
+          </p>
+          <div class="flex flex-row gap-3 items-center mt-16">
+            <img
+              src="/public/image-avatar.png"
+              alt="Avata image"
+              class="max-w-12 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold">
+                Cinnamon is just the best agency I have worked with.
+              </p>
+              <p class="font-normal">Abel Roboulut</p>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-white md:bg-[#0E4B92] shadow_class_three transition-all flex flex-col md:flex-row-reverse justify-between gap-5 items-center w-full p-0 md:p-10 mt-0 md:mt-20 mb-5 text-black md:text-white"
+      >
+        <img
+          src="/public/image-3.png"
+          alt="Laptop image"
+          class="w-full md:w-1/2 p-5 md:p-0 bg-[#0E4B92] md:bg-inherit"
+        />
+        <div class="flex flex-col gap-3 flex-1">
+          <span class="flex flex-row gap-2 text-base justify-start">
+            <p class="uppercase font-medium text-sm">Discovery workshop</p>
+            <p class="uppercase font-medium text-sm">Product Design</p>
+          </span>
+          <p class="font-bold text-4xl">
+            Database with up-to-date technical info
+          </p>
+          <p class="text-xl">
+            Avionica offers an encyclopedic overview and a map view of all
+            active aircraft types with all relevant technical and operational
+            data in the mobile digital format.
+          </p>
+          <div class="flex flex-row gap-3 items-center mt-16">
+            <img
+              src="/public/image-avatar.png"
+              alt="Avata image"
+              class="max-w-12 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold">
+                Cinnamon is just the best agency I have worked with.
+              </p>
+              <p class="font-normal">Abel Roboulut</p>
+            </span>
+          </div>
+        </div>
+      </section>
       <h2 class="text-5xl mt-10 mb-10 font-bold">Our services</h2>
       <section
         class="w-full grid justify-start items-center gap-5 row-gap-20"
-        style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))"
+        style="
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-gap: 80px 80px;
+        "
       >
         <div
           class="flex flex-col gap-3 justify-start items-start max-w-[300px] w-full"
@@ -204,11 +279,11 @@
       </section>
     </main>
     <section
-      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white my-10 py-10"
+      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white my-10 py-10 px-4 md:px-0"
       style="background-image: url(/public/noise.png)"
     >
       <section
-        class="w-full max-w-screen-lg flex flex-row items-center justify-between"
+        class="w-full max-w-screen-lg flex flex-col md:flex-row gap-10 items-center justify-between"
       >
         <div
           class="flex flex-col gap-5 justify-start items-start w-full md:max-w-[48%]"
@@ -234,6 +309,295 @@
           alt="discoveryWorkshop"
           class="w-full md:max-w-[48%]"
         />
+      </section>
+    </section>
+    <section
+      class="w-full flex flex-col justify-center items-center my-10 px-4 md:px-0"
+    >
+      <section
+        class="flex flex-col grid-rows-2 gap-y-[128px] gap-x-[5%] flex-wrap w-full max-w-screen-lg justify-between max-h-[1000px] h-fit"
+      >
+        <div
+          class="flex flex-col justify-start items-start gap-8 w-full md:max-w-[45%] max-w-full"
+        >
+          <h2 class="text-4xl font-bold">
+            Everything went very efficiently and smoothly.
+          </h2>
+          <p class="text-base font-normal">
+            I had one point of contact who was super tuned into all the details
+            of the project and led the whole thing from beginning to end with
+            professionalism and efficiency.
+          </p>
+          <span class="w-full flex flex-row justify-start items-center gap-3">
+            <img
+              src="/public/image-avatar.png"
+              alt="Image avatar"
+              class="max-w-16 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold text-xl">Shawnna von Blixen</p>
+              <p class="font-normal">
+                Network Coordinator, Chirldren at Risk
+              </p></span
+            >
+          </span>
+        </div>
+        <div
+          class="flex-col justify-start items-start gap-8 w-full max-w-[45%] justify-self-start mb-36 hidden md:flex"
+        >
+          <h2 class="text-4xl font-bold">
+            Everything went very efficiently and smoothly.
+          </h2>
+          <p class="text-base font-normal">
+            I had one point of contact who was super tuned into all the details
+            of the project and led the whole thing from beginning to end with
+            professionalism and efficiency.
+          </p>
+          <span class="w-full flex flex-row justify-start items-center gap-3">
+            <img
+              src="/public/image-avatar.png"
+              alt="Image avatar"
+              class="max-w-16 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold text-xl">Shawnna von Blixen</p>
+              <p class="font-normal">
+                Network Coordinator, Chirldren at Risk
+              </p></span
+            >
+          </span>
+        </div>
+        <div
+          class="hidden md:flex flex-col justify-start items-start gap-8 w-full max-w-[45%] self-end mt-36"
+        >
+          <h2 class="text-4xl font-bold">
+            Everything went very efficiently and smoothly.
+          </h2>
+          <p class="text-base font-normal">
+            I had one point of contact who was super tuned into all the details
+            of the project and led the whole thing from beginning to end with
+            professionalism and efficiency.
+          </p>
+          <span class="w-full flex flex-row justify-start items-center gap-3">
+            <img
+              src="/public/image-avatar.png"
+              alt="Image avatar"
+              class="max-w-16 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold text-xl">Shawnna von Blixen</p>
+              <p class="font-normal">
+                Network Coordinator, Chirldren at Risk
+              </p></span
+            >
+          </span>
+        </div>
+        <div
+          class="hidden md:flex flex-col justify-start items-start gap-8 w-full max-w-[45%] self-end mt-10"
+        >
+          <h2 class="text-4xl font-bold">
+            Everything went very efficiently and smoothly.
+          </h2>
+          <p class="text-base font-normal">
+            I had one point of contact who was super tuned into all the details
+            of the project and led the whole thing from beginning to end with
+            professionalism and efficiency.
+          </p>
+          <span class="w-full flex flex-row justify-start items-center gap-3">
+            <img
+              src="/public/image-avatar.png"
+              alt="Image avatar"
+              class="max-w-16 w-full aspect-square"
+            />
+            <span class="flex flex-col gap-1">
+              <p class="font-semibold text-xl">Shawnna von Blixen</p>
+              <p class="font-normal">
+                Network Coordinator, Chirldren at Risk
+              </p></span
+            >
+          </span>
+        </div>
+      </section>
+    </section>
+
+    <section
+      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white my-10 py-20 px-4 md:px-0 relative z-5"
+      style="background-image: url(/public/noise.png)"
+    >
+      <img
+        src="/public/cinnamonCollegeImg.webp"
+        alt="Pattern"
+        class="absolute top-0 right-0 z-5 max-w-full max-h-full"
+      />
+      <section
+        class="w-full max-w-screen-lg flex flex-col gap-10 items-start justify-between"
+      >
+        <div
+          class="flex flex-col gap-10 justify-start items-start w-full md:max-w-[48%]"
+        >
+          <p class="text-5xl font-bold max-w-[100px]">Cinnamon college</p>
+          <p class="text-base font-normal max-w-8/12">
+            Seize the unique opportunity to participate in a wide range of
+            courses conducted by professionals with an impeccable reputation in
+            the digital industry. Some of our recent courses were: Design
+            Course, Flutter Course and QA Course.
+          </p>
+          <button
+            class="bg-[rgb(81,53,255)] px-6 py-3 w-fit text-nowrap text-white"
+          >
+            See how it works
+          </button>
+        </div>
+        <div
+          class="w-full md:w-1/2 grid grid-cols-2 justify-start items-stretch gap-5 h-fit"
+        >
+          <img
+            src="/public/CinnamonCollege1.webp"
+            alt="discoveryWorkshop"
+            class="w-full object-cover"
+          />
+          <span class="grid grid-rows-2 w-full">
+            <img src="/public/CinnamonCollege2.webp" alt="" class="w-full" />
+            <img src="/public/CinnamonCollege3.webp" alt="" class="w-full" />
+          </span>
+        </div>
+      </section>
+    </section>
+
+    <section
+      class="w-full flex flex-col items-center justify-center px-4 md:px-0"
+    >
+      <section class="max-w-screen-lg w-full">
+        <div
+          class="flex flex-col gap-10 max-w-[75%] w-full justify-start items-start"
+        >
+          <p class="font-bold text-5xl">Agile team on demand</p>
+          <p class="">
+            By hiring and managing talented people with skills specific to your
+            project, we build you a team that’s accomplished, agile and scalable
+            in both directions.
+          </p>
+          <button
+            class="bg-[rgb(81,53,255)] px-6 py-3 w-fit text-nowrap text-white"
+          >
+            See how it works
+          </button>
+        </div>
+
+        <div
+          class="flex flex-col flex-wrap max-h-[1000px] w-full gap-5 max-w-screen-lg"
+        >
+          <img src="/public/agileTeam1.webp" alt="agileTeam1" class="" />
+          <img src="/public/agileTeam2.webp" alt="agileTeam2" class=" " />
+          <img src="/public/agileTeam3.webp" alt="agileTeam3" class="" />
+          <img src="/public/agileTeam4.webp" alt="agileTeam4" class="" />
+          <img src="/public/agileTeam5.webp" alt="agileTeam5" class="" />
+          <img src="/public/agileTeam6.webp" alt="agileTeam6" class="" />
+          <img src="/public/agileTeam8.webp" alt="agileTeam8" class="" />
+          <img src="/public/agileTeam9.webp" alt="agileTeam9" class="" />
+        </div>
+      </section>
+    </section>
+    <section
+      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white my-10 py-20 px-4 md:px-0 relative z-5"
+      style="background-image: url(/public/noise.png)"
+    >
+      <section
+        class="flex flex-col md:flex-row gap-10 items-center justify-start w-full max-w-screen-lg"
+      >
+        <h1 class="text-5xl font-bold w-full">We are growing</h1>
+        <div
+          class="flex flex-col gap-5 w-full md:max-w-[50%] justify-start items-start"
+        >
+          <p class="w-full text-base">
+            Jump on board with Cinnamon and get the privilege of working on
+            challenging projects for leading global companies. Even though there
+            are no open vacancies at this time, reach out with an open job
+            application and we’ll keep in the loop.
+          </p>
+          <button
+            class="bg-[rgb(81,53,255)] px-6 py-3 w-fit text-nowrap text-white"
+          >
+            Send Open application
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="w-full flex flex-row items-center justify-center">
+      <section
+        class="w-full max-w-screen-lg px-4 py-5 flex flex-col gap-10 items-start justify-start mb-10"
+      >
+        <h2 class="text-5xl mt-10 mb-0 font-bold">
+          Stay in the loop <br />
+          on the tech topics
+        </h2>
+        <section
+          class="grid grid-cols-3 justify-start gap-2 flex-nowrap min-w-[700px] w-full overflow-x-auto"
+        >
+          <div class="flex flex-col gap-3">
+            <img
+              src="/public/Patience_blog_cover.webp"
+              alt="patience blog cover"
+            />
+            <p class="uppercase font-medium">pm</p>
+            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+            <p class="font-semibold">
+              The Importance of Patience in Producing High-Quality Work
+            </p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <img
+              src="/public/Patience_blog_cover.webp"
+              alt="patience blog cover"
+            />
+            <p class="uppercase font-medium">pm</p>
+            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+            <p class="font-semibold">
+              The Importance of Patience in Producing High-Quality Work
+            </p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <img
+              src="/public/Patience_blog_cover.webp"
+              alt="patience blog cover"
+            />
+            <p class="uppercase">pm</p>
+            <span class="w-full">Zoran &#183; 2024-01-18 &#183; 4min</span>
+            <p class="font-semibold">
+              The Importance of Patience in Producing High-Quality Work
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="w-full flex flex-row items-center justify-center">
+      <section
+        class="w-full max-w-screen-lg px-4 py-5 flex flex-col gap-10 items-center justify-center bg-black text-white"
+      >
+        <p class="text-4xl font-bold">Still have questions?</p>
+        <p class="font-medium text-base">
+          Can’t find the answer you’re looking for? Please talk to our friendly
+          team.
+        </p>
+        <div class="flex flex-row justify-center gap-[-20px]">
+          <img src="/public/image-avatar.png" alt="avatar" class="max-w-12" />
+          <img
+            src="/public/image-avatar.png"
+            alt="avatar"
+            class="max-w-12 -ms-2"
+          />
+          <img
+            src="/public/image-avatar.png"
+            alt="avatar"
+            class="max-w-12 -ms-2"
+          />
+        </div>
+        <button
+          class="bg-[rgb(81,53,255)] px-6 py-3 w-fit text-nowrap text-white"
+        >
+          Ask us anything
+        </button>
       </section>
     </section>
   </body>

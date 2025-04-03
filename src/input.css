@@ -1,13 +1,32 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 html {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
+}
+.shadow_class_one {
+  box-shadow: none;
+}
+.shadow_class_one:hover {
+  box-shadow: 0px 4px 40px 0px rgba(78, 38, 128, 0.8);
+}
+.shadow_class_two {
+  box-shadow: none;
+}
+.shadow_class_two:hover {
+  box-shadow: 0px 4px 40px 0px #17464f80;
+}
+.shadow_class_three {
+  box-shadow: none;
+}
+.shadow_class_three:hover {
+  box-shadow: 0px 4px 40px 0px #0e4b9280;
 }
