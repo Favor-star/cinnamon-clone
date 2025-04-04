@@ -637,7 +637,7 @@
     </section>
     <section class="w-full flex items-center justify-center px-4 md:px-0">
       <section
-        class="flex flex-col max-w-screen-lg w-full mb-16 mt-8  overflow-x-scroll hide_scrollbar relative z-0"
+        class="flex flex-col max-w-screen-lg w-full mb-16 mt-8 overflow-x-scroll hide_scrollbar relative z-0"
       >
         <h2 class="text-5xl font-bold mb-12 sticky left-0 top-0">
           Our offices
@@ -752,6 +752,7 @@
     <section class="w-full flex flex-row items-center justify-center">
       <section
         class="w-full max-w-screen-lg px-4 py-5 flex flex-col gap-10 items-center justify-center bg-black text-white"
+        style="background-image: url(../public/noise.png)"
       >
         <p class="text-4xl font-bold">Still have questions?</p>
         <p class="font-medium text-base">
@@ -778,14 +779,59 @@
         </button>
       </section>
     </section>
-       <section
-      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white my-10 py-20 px-4 md:px-0 relative z-5"
+    <section
+      class="w-full bg-[#1C1C1C] flex flex-col justify-center items-center text-white mt-0 md:mt-10 py-20 px-4 md:px-0 relative z-5"
       style="background-image: url(../public/noise.png)"
     >
       <section
-        class="flex flex-col md:flex-row gap-10 items-center justify-start w-full max-w-screen-lg"
+        class="flex flex-col md:flex-row gap-10 items-start justify-start w-full max-w-screen-lg py-20"
       >
-        
+        <div
+          class="max-w-56 w-full flex flex-col gap-3 justify-start items-start "
+        >
+          <img
+            src="../public/logo.svg"
+            alt="logo image"
+            class="text-white bg-white max-w-32"
+          />
+          <ul class="flex flex-col gap-2 list-none">
+            <li class="font-medium text-base">Home</li>
+            <li class="font-medium text-base">Projects</li>
+            <li class="font-medium text-base">Services</li>
+            <li class="font-medium text-base">Careers</li>
+            <li class="font-medium text-base">Blog</li>
+          </ul>
+        </div>
+        <div
+          class="w-full flex flex-col items-start justify-start gap-7 "
+        >
+          <p class="font-bold text-3xl">All software, zero bullshit</p>
+          <div class="w-full flex flex-row justify-between items-start">
+            <span class="flex flex-1 flex-col gap-1w-full">
+              <p class="font-semibold">Zagreb</p>
+              <p class="">
+                Gradiščanska 24,<br />
+                10000, Zagreb, Croatia<br />
+                +385 95 382 9188
+              </p>
+            </span>
+            <span class="flex flex-1 flex-col gap-1w-full">
+              <p class="font-semibold">New York</p>
+              <p class="text-sm">
+                500 7th Ave, New York,<br />
+                NY 10018, United States
+              </p>
+            </span>
+            <span class="flex flex-1 flex-col gap-1w-full">
+              <p class="font-semibold mb-2">Belgrade</p>
+              <p class="text-sm">
+                Požeška 58
+                <br />
+                11000, Belgrade, Serbia
+              </p>
+            </span>
+          </div>
+        </div>
       </section>
     </section>
   </body>
