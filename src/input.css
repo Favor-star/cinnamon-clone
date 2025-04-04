@@ -43,3 +43,22 @@ button:hover {
   background-color: white;
   color: rgb(81, 53, 255);
 }
+.hide_scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.hide_scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.hide_scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0px;
+}
+.hide_scrollbar::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+  border-radius: 0px;
+}
+.hide_scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0px;
+}
